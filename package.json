@@ -1,0 +1,24 @@
+{
+  "name": "react-docgen-deprecation-handler",
+  "version": "1.0.0",
+  "description": "Add deprecation status for props",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "0.25.0",
+    "react-docgen": "2.21.0"
+  },
+  "author": "siddharthkp",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddharthkp/react-docgen-deprecation-handler.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/siddharthkp/react-docgen-deprecation-handler/issues"
+  },
+  "homepage": "https://github.com/siddharthkp/react-docgen-deprecation-handler#readme"
+}
