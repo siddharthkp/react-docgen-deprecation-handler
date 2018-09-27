@@ -59,11 +59,16 @@ export default Component
 
 #### usage
 
-```js
-const repo = require("react-docgen-deprecation-handler")
+You can add this handler to `react-docgen`'s handlers
 
+```js
+// grab the deprecation handler
+const deprecationHandler = require("react-docgen-deprecation-handler")
+
+// add this to docgen's handlers
 const handlers = docgen.defaultHandlers.concat(deprecationHandler)
 
+// pass these handlers to docgen.parse
 const data = docgen.parse(code, null, handlers)
 ```
 
