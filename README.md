@@ -28,7 +28,9 @@ Component.propTypes = {
   /** @deprecated dont use this prop */
   old: PropTypes.any,
   /** this isn't deprecated, use it */
-  new: PropTypes.any
+  new: PropTypes.any,
+  /** @deprecated:new deprecated, you can add metadata like the replacement */
+  old2: PropTypes.any
 }
 
 export default Component
@@ -50,7 +52,14 @@ export default Component
       type: { name: 'any' },
       required: false,
       description: "this isn't deprecated, use it"
-    }
+    },
+    old2: {
+      type: { name: 'any' },
+      required: false,
+      description: "dont use this prop",
+👉    deprecated: true,
+👉    deprecationData: "new"
+    },
   }
 }
 ```
