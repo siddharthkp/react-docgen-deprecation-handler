@@ -7,7 +7,7 @@
     "test": "ava"
   },
   "devDependencies": {
-    "ava": "0.25.0",
+    "ava": "5.1.0",
     "react-docgen": "2.21.0"
   },
   "author": "siddharthkp",
